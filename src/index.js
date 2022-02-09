@@ -22,6 +22,8 @@ app.use("/loginUser", login);
 app.use("/register", signupController);
 app.use("/login", loginController);
 app.use("/flashsale", flashsaleController);
+app.use("/index", flashsaleController);
+app.use("/flashsale/cart", cartController);
 app.use("/home", flashsaleController);
 app.use("/", cartController);
 
